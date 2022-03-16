@@ -106,7 +106,7 @@ public class Tabuleiro {
 		campos.stream().forEach(c -> c.reiniciar());
 		sortearMinas();
 	}
-
+	//Melhotando metodo toString
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		

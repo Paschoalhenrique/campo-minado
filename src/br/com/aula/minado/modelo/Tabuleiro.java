@@ -23,7 +23,7 @@ public class Tabuleiro {
 		associarOsVizinhos();
 		sortearMinas();
 	}
-	
+	//implementação do campo com try catch
 	public void abrir(int linha, int coluna) {
 		try {
 			campos.parallelStream()
